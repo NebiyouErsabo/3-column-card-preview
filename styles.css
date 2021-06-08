@@ -1,0 +1,238 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;    
+    font-family: 'Big Shoulders Display', cursive;
+}
+.cardbox{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    max-height:100vh;
+    width:auto;
+    margin:10%;
+
+}
+.column1{
+    background-color: hsl(31, 77%, 52%);
+    height:450px;
+    width:auto;
+    padding:20px 40px 20px 40px;
+    margin-top: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+.column2{
+    background-color:hsl(184, 100%, 22%);
+    height:450px;
+    width:auto;
+    padding:20px 40px 20px 40px;
+    margin-top: 20px;
+}
+.column3{
+    background-color: hsl(179, 100%, 13%);
+    height:450px;
+    width:auto;
+    padding:20px 40px 20px 40px;
+    margin-top: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+h1{
+    color:white;
+    font-size: 45px;
+
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Lexend Deca', sans-serif; 
+    padding: 0rem 0rem 4.5rem 0rem;
+}
+button{
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 50px;
+    padding:15px 20px 15px 20px;
+    font-family: 'Lexend Deca', sans-serif; 
+    font-size: 15px;
+    text-decoration: none;
+    cursor:pointer;
+    border-color:hsl(0, 0%, 95%);
+    border-style: solid;
+    
+}
+.sedan{
+    color:hsl(31, 77%, 52%);
+}
+.SUVs{
+    color:hsl(184, 100%, 22%);
+}
+.Luxury{
+    color:hsl(179, 100%, 13%);
+}
+button:hover{
+    background-color: transparent;
+    color:white;
+    border-color: white;
+}
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+    padding-bottom:15px;
+    font-family:'Lexend Deca', sans-serif;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.attribution a 
+{ color: hsl(228, 45%, 44%); 
+}
+@media only screen and (max-width: 1000px) {
+    body{
+        background-color: hsl(0, 0%, 95%);
+        font-size: 15px;
+        margin: 10%;
+        max-height:100vh;
+        max-width:100%;
+    }
+    .cardbox{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        max-height:5000px;
+        max-width:100%;
+        margin:10%;
+        padding: 0%;
+    }
+    .column1{
+        background-color: hsl(31, 77%, 52%);
+        height:450px;
+        width:auto;
+        padding:20px 40px 20px 40px;
+        margin-top: 35px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .column2{
+        background-color:hsl(184, 100%, 22%);
+        height:450px;
+        width:auto;
+        padding:20px 40px 20px 40px;
+        margin-top: 0px;
+    }
+    .column3{
+        background-color: hsl(179, 100%, 13%);
+        height:450px;
+        width:auto;
+        padding:20px 40px 20px 40px;
+        margin-top: 0px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .attribution{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 475px) {
+    body{
+        background-color: hsl(0, 0%, 95%);
+        font-size: 15px;
+        margin: 2%;
+        max-height:100vh;
+        max-width:100%;
+    }
+    .cardbox{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        max-height:5000px;
+        max-width:100%;
+        margin:10%;
+        padding: 0%;
+    }
+    .column1{
+        background-color: hsl(31, 77%, 52%);
+        height:450px;
+        width:auto;
+        padding:20px 40px 20px 40px;
+        margin-top: 35px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .column2{
+        background-color:hsl(184, 100%, 22%);
+        height:450px;
+        width:auto;
+        padding:20px 40px 20px 40px;
+        margin-top: 0px;
+    }
+    .column3{
+        background-color: hsl(179, 100%, 13%);
+        height:450px;
+        width:auto;
+        padding:20px 40px 20px 40px;
+        margin-top: 0px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .attribution{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    button{
+        background-color:hsl(0, 0%, 95%);
+        border-radius: 50px;
+        padding:15px 20px 15px 20px;
+        font-family: 'Lexend Deca', sans-serif; 
+        font-size: 15px;
+        text-decoration: none;
+        cursor:pointer;
+        border-color:hsl(0, 0%, 95%);
+        border-style: solid;
+        
+    }
+    p{
+        color:hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        line-height: 25px;
+        font-family: 'Lexend Deca', sans-serif; 
+        padding: 0rem 0rem 3.5rem 0rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
